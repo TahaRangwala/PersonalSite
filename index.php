@@ -14,6 +14,7 @@
 
         <script src = "js/main_back.js"> </script>
         <script src = "js/net.js"> </script>
+        
 
         <script>
             VANTA.NET({
@@ -61,10 +62,18 @@
         
         <div class = "projects-area" id = "projects">
             <h2> projects </h2>
+            <div class = "seniorinfo">
+                <h3 style = "text-align: center;"> Universal PA Test Controller </h3>
+                <p style = "text-align: justify;"> Developed a Universal Power Amplifier Test Controller for Radio Frequency Testing Equipment using a Raspberry Pi and the VISA API  </p>
+            </div>
+            <div class = "embeddedinfo">
+                <h3 style = "text-align: center;"> The Grabby Bot </h3>
+                <p style = "text-align: justify;"> Designed and implemented the movement of a two-motor rover (Zumo) when interacting with a larger tri-wheeled rover and robotic arm in an engineering design team </p>
+            </div>
             <a href = "https://shipfit.net/" id = "shiplink" target="_blank"> 
                 <div class = "shipfitinfo">
                     <h3 style = "text-align: center;"> ShipFit </h3>
-                    <p style = "text-align: justify;"> Designed and developed packaging software that calculates the most efficient way to put items in a package </p>
+                    <p style = "text-align: justify;"> Designed and developed packaging software that calculates the most efficient way to put items in a package. This project can be found at <u> https://shipfit.net/ </u>. </p>
                 </div>
             </a>
             <div class = "calcinfo">
@@ -111,20 +120,20 @@
                 <ul class="course-list">
                     <li> Senior Design Project </li>
                     <li> Embedded System Design </li>
+                    <li> Real-Time Systems </li>
                     <li> Introduction to Computer Vision</li>
                     <li> Machine Learning</li>
-                    <li> Video Game Design and Engineering</li>
                     <li> Applied Software Design</li>
-                    <li> Data Structures and Algorithms</li>
                     <li> Microcontroller Programming and Interfacing</li>
                     <li> Artificial Intelligence and Engineering Applications</li>
                     <li> Digital Image Processing</li>
                     <li> Network Application Design</li>
-                    <li> Introduction to Discrete Math</li>
-                    <li> Differential Equations</li>
+                    <li> Data Structures and Algorithms</li>
                     <li> Signals and Systems</li>
                     <li> Electric Circuit Analysis</li>
                     <li> Electronics</li>
+                    <li> Introduction to Discrete Math</li>
+                    <li> Differential Equations</li>
                 </ul>
             </div>
         </div>

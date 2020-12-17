@@ -17,6 +17,7 @@
             <li><a href = "#awards" class = "link"> Awards </a> </li>
             <li><a href = "#resume" class = "link"> Resume </a> </li>
             <li><a href = "#contact" class = "link"> Contact </a> </li>
+            <img src = "img/headericon.png" alt = "logo" class = "logo">
         </div>
 
     </body>

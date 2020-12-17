@@ -52,7 +52,7 @@ h2{
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 900;
+    z-index: 98;
   
     display: block;
     width: 100%;
@@ -139,6 +139,68 @@ h2{
 
 #shiplink{
     text-decoration: none;
+}
+
+.seniorinfo{
+    border:solid;
+    border-color: rgb(224,255,255);
+    box-shadow: 1vh 1vw #888888;
+    width: 35vw;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    background-color: rgb(0,0,128);
+}
+
+.seniorinfo:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transition: all 500ms ease-in;
+  transform: scale(1.2); 
+  cursor: default;
+}
+
+.seniorinfo h3{
+    color: rgb(224,255,255);
+}
+
+.seniorinfo p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: rgb(224,255,255);
+}
+
+.embeddedinfo{
+    border:solid;
+    border-color: rgb(224,255,255);
+    box-shadow: 1vh 1vw #888888;
+    width: 35vw;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    background-color: rgb(0,0,128);
+}
+
+.embeddedinfo:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transition: all 500ms ease-in;
+  transform: scale(1.2); 
+  cursor: default;
+}
+
+.embeddedinfo h3{
+    color: rgb(224,255,255);
+}
+
+.embeddedinfo p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: rgb(224,255,255);
 }
 
 .shipfitinfo{
